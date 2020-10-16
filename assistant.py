@@ -28,7 +28,6 @@ def sendemail(to, content):
     server.login('<-- YOUR EMAIl-->', '<--YOUR PASSWORD-->')
     server.sendmail('<-- YOUR EMAIl-->', to, content)
 
-
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
@@ -66,7 +65,6 @@ def take_command():
         return "None"
 
     return query
-
 
 def internal_command():
     r = sr.Recognizer()
