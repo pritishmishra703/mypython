@@ -21,8 +21,6 @@ for v in voices:
 engine.setProperty(
     'voice', 'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\Voices\\Tokens\\TTS_MS_EN-US_DAVID_11.0')
 
-
-
 def sendemail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
